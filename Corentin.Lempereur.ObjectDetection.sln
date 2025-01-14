@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corentin.Lempereur.ObjectDetection", "src\Corentin.Lempereur.ObjectDetection\Corentin.Lempereur.ObjectDetection.csproj", "{8C946190-5A85-42B4-AB6E-14EE677DEBE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corentin.Lempereur.ObjectDetection.Tests", "tests\Corentin.Lempereur.ObjectDetection.Tests\Corentin.Lempereur.ObjectDetection.Tests.csproj", "{B56CC6D3-669A-4052-94A0-65946E055D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corentin.Lempereur.ObjectDetection.Console", "src\Corentin.Lempereur.ObjectDetection.Console\Corentin.Lempereur.ObjectDetection.Console.csproj", "{7C40EB02-94F3-4834-918F-ED32DEFD6C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corentin.Lempereur.ObjectDetection.WebApi", "src\Corentin.Lempereur.ObjectDetection.WebApi\Corentin.Lempereur.ObjectDetection.WebApi.csproj", "{18DE11FD-C8C6-48D7-B0A2-F3983BE6B346}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C946190-5A85-42B4-AB6E-14EE677DEBE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C946190-5A85-42B4-AB6E-14EE677DEBE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C946190-5A85-42B4-AB6E-14EE677DEBE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C946190-5A85-42B4-AB6E-14EE677DEBE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B56CC6D3-669A-4052-94A0-65946E055D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56CC6D3-669A-4052-94A0-65946E055D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56CC6D3-669A-4052-94A0-65946E055D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56CC6D3-669A-4052-94A0-65946E055D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C40EB02-94F3-4834-918F-ED32DEFD6C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C40EB02-94F3-4834-918F-ED32DEFD6C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C40EB02-94F3-4834-918F-ED32DEFD6C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C40EB02-94F3-4834-918F-ED32DEFD6C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18DE11FD-C8C6-48D7-B0A2-F3983BE6B346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18DE11FD-C8C6-48D7-B0A2-F3983BE6B346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18DE11FD-C8C6-48D7-B0A2-F3983BE6B346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18DE11FD-C8C6-48D7-B0A2-F3983BE6B346}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

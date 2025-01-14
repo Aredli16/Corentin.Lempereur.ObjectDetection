@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4.1.0
+      - run: dotnet test
+        
+  publish:
+    runs-on: windows-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4.2.2
+      - uses: actions/setup-dotnet@v4.1.0
+      - name: Build for Windows x64
+        run: dotnet publish ./src/Corentin.Lempereur.ObjectDetection.Console/Corentin.Lempereur.ObjectDetection.Console.csproj --self-contained true --output ./win-x64/ObjectDetection -c Release -r win-x64 /p:PublishSingleFile=true
+      - name: Publish ObjectDetection Windows x64
+        uses: actions/upload-artifact@v4.4.3
+        with:
+          name: Publish win-x64 ObjectDetection
+          path: ./win-x64/ObjectDetection
